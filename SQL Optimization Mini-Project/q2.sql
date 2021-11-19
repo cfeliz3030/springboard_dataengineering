@@ -14,7 +14,7 @@ SET @v8 = 'MAT';
 ALTER Table Student
 ADD INDEX id_name_idx (id,name);
 
-SELECT name FROM Student WHERE id BETWEEN @v2 AND @v3;
+SELECT name FROM Student WHERE id >= @v2 AND id <= @v3;
 
 # Query was performing a full table scan. Created an index using a combination of 'id' and 'name' columns,
 # in order to improve speed of name retrieval. Type scan improved from 'ALL' to 'RANGE'.
