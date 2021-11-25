@@ -10,10 +10,12 @@ The table we will be working with has the following schema. \
 Step 1. Install MySQL Python connector
 
 Step 2. Load third-party ticket sales data into MySQL database \
+
 2.1 Setup database connection
 In order to make a query against the database table, we need to first connect to it. A connection
 can be established only when the user provides the proper target host, port, and user
 credentials \
+
 2.2 Load CSV to table
 
 Step 3. Display statistical information
