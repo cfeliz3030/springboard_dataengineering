@@ -1,0 +1,13 @@
+2021-11-25 00:10:56,932 __main__ INFO Connecting to springboard
+2021-11-25 00:10:57,020 __main__ INFO Connected to springboard
+2021-11-25 00:10:57,020 __main__ INFO Creating new table
+2021-11-25 00:10:57,043 __main__ INFO New table created!
+2021-11-25 00:10:57,043 __main__ INFO Preparing to insert new records into table
+2021-11-25 00:10:57,044 __main__ INFO Inserting ['1', '2020-08-01', '100', 'The North American International Auto Show', '2020-09-01', 'Exhibition', 'Michigan', '123', '35.00', '3']
+2021-11-25 00:10:57,048 __main__ INFO Inserting ['2', '2020-08-03', '101', 'Carlisle Ford Nationals', '2020-09-30', 'Exhibition', 'Carlisle', '151', '43.00', '1']
+2021-11-25 00:10:57,049 __main__ INFO Inserting ['3', '2020-08-03', '102', 'Washington Spirits vs Sky Blue FC', '2020-08-30', 'Sports', 'Washington DC', '223', '59.34', '5']
+2021-11-25 00:10:57,049 __main__ INFO Inserting ['4', '2020-08-05', '103', 'Christmas Spectacular', '2020-10-05', 'Theater', 'New York', '223', '89.95', '2']
+2021-11-25 00:10:57,050 __main__ INFO Inserting ['5', '2020-08-05', '100', 'The North American International Auto Show', '2020-09-01', 'Exhibition', 'Michigan', '126', '35.00', '1']
+2021-11-25 00:10:57,050 __main__ INFO Inserting ['6', '2020-08-05', '103', 'Christmas Spectacular', '2020-10-05', 'Theater', 'New York', '1024', '89.95', '3']
+2021-11-25 00:10:57,051 __main__ INFO Retrieving records from database
+2021-11-25 00:10:57,052 __main__ INFO Retrieved [('Washington Spirits vs Sky Blue FC',), ('Christmas Spectacular',)]
