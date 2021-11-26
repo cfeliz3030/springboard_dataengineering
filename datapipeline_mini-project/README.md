@@ -7,14 +7,14 @@ The table we will be working with has the following schema. \
 ![Screen Shot 2021-11-25 at 12 29 51 AM](https://user-images.githubusercontent.com/60493376/143406277-32a080cd-8111-4257-a6c2-7e2822caad96.png)
 
 ### Step-by-Step Instructions:
-Step 1. Install MySQL Python connector
+Step 1. Install MySQL Python connector.
 
-Step 2. Load third-party ticket sales data into MySQL database \
+Step 2. Load third-party ticket sales data into MySQL database.
 
 2.1 Setup database connection
 In order to make a query against the database table, we need to first connect to it. A connection
 can be established only when the user provides the proper target host, port, and user
-credentials \
+credentials.
 
 2.2 Load CSV to table
 
