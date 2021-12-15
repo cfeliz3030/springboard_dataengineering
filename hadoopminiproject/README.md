@@ -10,7 +10,7 @@ The data we will be working with can be seen below. \
 Step 1. Install Hadoop 3.3.1 \
 Intallation Video: https://www.youtube.com/watch?v=BdHQFAP98_A
 
-Apache Documentation Guide: https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html
+Apache Hadoop Documentation Guide: https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html
 
 Step 2. Test the MapReduce jobs using bash pipeline.
 
