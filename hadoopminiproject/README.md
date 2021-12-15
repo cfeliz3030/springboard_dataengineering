@@ -10,6 +10,8 @@ The data we will be working with can be seen below. \
 Step 1. Install Hadoop 3.3.1 \
 Intallation Video: https://www.youtube.com/watch?v=BdHQFAP98_A
 
+Apache Documentation Guide: https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/SingleCluster.html
+
 Step 2. Test the MapReduce jobs using bash pipeline.
 
 ```
@@ -32,7 +34,7 @@ bin/hadoop jar /Users/christopher/Desktop/myhadoop/hadoop-3.3.1/share/hadoop/too
 -input /hadoopminiproject/hadoopminiproject/stepone -output /hadoopminiproject/hadoopminiproject/steptwo
 ```
 
-Final output should be similar to below. \
+Final output should be similar to below. 
 
 ![Screen Shot 2021-12-14 at 8 34 18 PM](https://user-images.githubusercontent.com/60493376/146258704-9ac2fd36-596e-4f59-a611-04b1754975bd.png)
 
