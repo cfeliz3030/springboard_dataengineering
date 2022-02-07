@@ -1,0 +1,40 @@
+[2022-02-06 16:29:35,756] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: marketvol.query_data manual__2022-02-07T00:29:19.270400+00:00 [queued]>
+[2022-02-06 16:29:35,762] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: marketvol.query_data manual__2022-02-07T00:29:19.270400+00:00 [queued]>
+[2022-02-06 16:29:35,762] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-06 16:29:35,762] {taskinstance.py:1239} INFO - Starting attempt 1 of 3
+[2022-02-06 16:29:35,762] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-06 16:29:35,773] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): query_data> on 2022-02-07 00:29:19.270400+00:00
+[2022-02-06 16:29:35,775] {standard_task_runner.py:52} INFO - Started process 47991 to run task
+[2022-02-06 16:29:35,780] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'marketvol', 'query_data', 'manual__2022-02-07T00:29:19.270400+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/airflow_mini_project.py', '--cfg-path', '/var/folders/tn/5q06ggls199frnm9gggmb9400000gn/T/tmp0edlan6q', '--error-file', '/var/folders/tn/5q06ggls199frnm9gggmb9400000gn/T/tmppp7kr3ru']
+[2022-02-06 16:29:35,782] {standard_task_runner.py:77} INFO - Job 103: Subtask query_data
+[2022-02-06 16:29:35,825] {logging_mixin.py:109} INFO - Running <TaskInstance: marketvol.query_data manual__2022-02-07T00:29:19.270400+00:00 [running]> on host 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2022-02-06 16:29:35,857] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/xcom.py:323 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-02-06 16:29:35,863] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/renderedtifields.py:126 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-02-06 16:29:35,870] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/renderedtifields.py:162 SAWarning: Coercing Subquery object into a select() for use in IN(); please pass a select() construct explicitly
+[2022-02-06 16:29:35,873] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/renderedtifields.py:163 SAWarning: TypeDecorator UtcDateTime(timezone=True) will not produce a cache key because the ``cache_ok`` attribute is not set to True.  This can have significant performance implications including some performance degradations in comparison to prior SQLAlchemy versions.  Set this attribute to True if this type object's state is safe to use in a cache key, or False to disable this warning. (Background on this error at: https://sqlalche.me/e/14/cprf)
+[2022-02-06 16:29:35,876] {taskinstance.py:1426} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=marketvol
+AIRFLOW_CTX_TASK_ID=query_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-07T00:29:19.270400+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-02-07T00:29:19.270400+00:00
+[2022-02-06 16:29:35,905] {logging_mixin.py:109} INFO -                     Datetime        open        high         low       close   adj_close  volume
+0  2022-02-02 09:30:00-05:00  928.179993  928.507019  921.250000  924.549927  924.549927  888149
+1  2022-02-02 09:31:00-05:00  924.549927  925.022827  921.250000  923.400696  923.400696   79057
+2  2022-02-02 09:32:00-05:00  924.200012  924.489990  917.119995  920.000000  920.000000  146045
+3  2022-02-02 09:33:00-05:00  920.239990  921.369995  917.550110  920.310120  920.310120  100976
+4  2022-02-02 09:34:00-05:00  920.099976  924.500000  919.179993  924.440002  924.440002  125673
+[2022-02-06 16:29:35,912] {logging_mixin.py:109} INFO -                     Datetime        open        high         low       close   adj_close   volume
+0  2022-02-02 09:30:00-05:00  174.744995  174.869995  174.020004  174.067902  174.067902  4039362
+1  2022-02-02 09:31:00-05:00  174.069901  174.300003  173.949997  174.149902  174.149902   425070
+2  2022-02-02 09:32:00-05:00  174.120193  174.399994  173.990097  174.380005  174.380005   296103
+3  2022-02-02 09:33:00-05:00  174.369995  174.570007  174.100006  174.520004  174.520004   332243
+4  2022-02-02 09:34:00-05:00  174.509995  175.164703  174.479996  175.104904  175.104904   759250
+[2022-02-06 16:29:35,913] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-06 16:29:35,919] {taskinstance.py:1277} INFO - Marking task as SUCCESS. dag_id=marketvol, task_id=query_data, execution_date=20220207T002919, start_date=20220207T002935, end_date=20220207T002935
+[2022-02-06 16:29:35,962] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-06 16:29:35,983] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-02-06 16:29:35,985] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/dag.py:1076 SADeprecationWarning: Query.value() is deprecated and will be removed in a future release.  Please use Query.with_entities() in combination with Query.scalar() (deprecated since: 1.4)
+[2022-02-06 16:29:35,985] {logging_mixin.py:109} WARNING - /Users/christopher/airflow_workspace/airflow_env/lib/python3.7/site-packages/airflow/models/dag.py:1076 SADeprecationWarning: Query.values() is deprecated and will be removed in a future release.  Please use Query.with_entities() (deprecated since: 1.4)
