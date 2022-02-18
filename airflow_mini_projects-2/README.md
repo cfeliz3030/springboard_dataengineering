@@ -19,4 +19,5 @@ In this mini-project, you will:
 
 Final Output
 
-![Screen Shot 2022-02-17 at 12 00 13 AM](https://user-images.githubusercontent.com/60493376/154431412-7e72181a-8b00-42e1-89b4-e57260bd6847.png)
+![Screen Shot 2022-02-17 at 11 12 10 PM](https://user-images.githubusercontent.com/60493376/154635216-7c84e4c7-7ff7-4633-9c08-64234eff1c64.png)
+
